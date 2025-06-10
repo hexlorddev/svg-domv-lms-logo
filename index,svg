@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer shield -->
+  <path d="M50 120 Q50 80 80 60 L320 60 Q350 80 350 120 L350 280 Q350 320 200 380 Q50 320 50 280 Z" 
+        fill="#d63447" stroke="#ffffff" stroke-width="8"/>
+  
+  <!-- Inner shield -->
+  <path d="M70 130 Q70 95 95 80 L305 80 Q330 95 330 130 L330 270 Q330 305 200 360 Q70 305 70 270 Z" 
+        fill="#d63447" stroke="#ffffff" stroke-width="4"/>
+  
+  <!-- D.P.M.V text -->
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="bold" 
+        text-anchor="middle" fill="white">D.P.M.V</text>
+  
+  <!-- Oil lamp -->
+  <g transform="translate(200, 200)">
+    <!-- Lamp base -->
+    <ellipse cx="0" cy="10" rx="45" ry="20" fill="white"/>
+    <!-- Lamp body -->
+    <path d="M-35 10 Q-35 -5 -25 -15 L25 -15 Q35 -5 35 10 Z" fill="white"/>
+    <!-- Flame -->
+    <path d="M0 -15 Q-8 -25 -5 -35 Q0 -40 5 -35 Q8 -25 0 -15 Z" fill="white"/>
+    <!-- Wick holder -->
+    <rect x="-2" y="-15" width="4" height="8" fill="#d63447"/>
+  </g>
+  
+  <!-- Drops below lamp -->
+  <g transform="translate(200, 240)">
+    <ellipse cx="-15" cy="0" rx="3" ry="5" fill="white"/>
+    <ellipse cx="0" cy="5" rx="3" ry="5" fill="white"/>
+    <ellipse cx="15" cy="0" rx="3" ry="5" fill="white"/>
+  </g>
+  
+  <!-- LMS text -->
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="58" font-weight="bold" 
+        text-anchor="middle" fill="white">LMS</text>
+</svg>
